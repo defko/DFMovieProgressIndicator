@@ -17,3 +17,5 @@ Setup:
     - startNumber
 
 - After setting, just call [progressView startAnimating] and for stop [progressView stopAnimating]
+
+![Alt text](DFMovieLoading/Resources/Sample.png "Sample")
