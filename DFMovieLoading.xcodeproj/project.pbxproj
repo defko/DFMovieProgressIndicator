@@ -22,7 +22,7 @@
 		72343AFC184CD630005254D8 /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72343AFB184CD630005254D8 /* iPhone.storyboard */; };
 		72343B01184CD685005254D8 /* DFProgressIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 72343B00184CD685005254D8 /* DFProgressIndicator.m */; };
 		72343B04184CD6E6005254D8 /* DFMovieLoadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72343B03184CD6E6005254D8 /* DFMovieLoadingViewController.m */; };
-		72343B0C184CE174005254D8 /* Sample.png in Resources */ = {isa = PBXBuildFile; fileRef = 72343B0B184CE174005254D8 /* Sample.png */; };
+		72343B0F184CE218005254D8 /* sample.png in Resources */ = {isa = PBXBuildFile; fileRef = 72343B0E184CE218005254D8 /* sample.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,7 +57,7 @@
 		72343B00184CD685005254D8 /* DFProgressIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFProgressIndicator.m; sourceTree = "<group>"; };
 		72343B02184CD6E6005254D8 /* DFMovieLoadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFMovieLoadingViewController.h; sourceTree = "<group>"; };
 		72343B03184CD6E6005254D8 /* DFMovieLoadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFMovieLoadingViewController.m; sourceTree = "<group>"; };
-		72343B0B184CE174005254D8 /* Sample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sample.png; sourceTree = "<group>"; };
+		72343B0E184CE218005254D8 /* sample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +117,7 @@
 		72343AD2184CD61B005254D8 /* DFMovieLoading */ = {
 			isa = PBXGroup;
 			children = (
-				72343B0A184CE168005254D8 /* Resources */,
+				72343B0D184CE210005254D8 /* Resources */,
 				72343AFD184CD66F005254D8 /* Libraries */,
 				72343ADB184CD61B005254D8 /* AppDelegate.h */,
 				72343ADC184CD61B005254D8 /* AppDelegate.m */,
@@ -176,10 +176,10 @@
 			path = DFProgressIndicator;
 			sourceTree = "<group>";
 		};
-		72343B0A184CE168005254D8 /* Resources */ = {
+		72343B0D184CE210005254D8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				72343B0B184CE174005254D8 /* Sample.png */,
+				72343B0E184CE218005254D8 /* sample.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -262,7 +262,7 @@
 				72343AD7184CD61B005254D8 /* InfoPlist.strings in Resources */,
 				72343AFC184CD630005254D8 /* iPhone.storyboard in Resources */,
 				72343ADF184CD61B005254D8 /* Images.xcassets in Resources */,
-				72343B0C184CE174005254D8 /* Sample.png in Resources */,
+				72343B0F184CE218005254D8 /* sample.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
