@@ -16,17 +16,17 @@
     CGFloat _angle;
     CGFloat _rotationAngle;
     
-    BOOL _isAnimating;
-    
     int _currentNumber;
     BOOL _isCountDownDecreasedInThisLap;
 }
 
-@property (nonatomic) double animationSpeed;
-@property (nonatomic) double radius;
-@property (nonatomic) int startNumber;
+@property (nonatomic,readonly,assign) BOOL isAnimating;
 
-@property (nonatomic) CGFloat startAngle;
+@property (nonatomic,assign) double animationSpeed;
+@property (nonatomic,assign) double radius;
+@property (nonatomic,assign) int startNumber;
+
+@property (nonatomic,assign) CGFloat startAngle;
 @property (nonatomic, strong) UIColor* tintColor;
 @property (nonatomic, strong) UIColor* circleColor;
 @property (nonatomic, strong) UIColor* labelColor;
