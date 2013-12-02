@@ -15,3 +15,5 @@ Setup:
     - circlecolor
     - labelColor
     - startNumber
+
+- After setting, just call [progressView startAnimating] and for stop [progressView stopAnimating]
